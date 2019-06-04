@@ -4,7 +4,8 @@
   "description": "Simple GraphQL server",
   "main": "server.js",
   "scripts": {
-    "dev:server": "nodemon server.js"
+    "dev:server": "nodemon server.js",
+    "json:server": "json-server --watch data.json"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/gillsinaglass/Sample_GraphQL_Server#readme",
   "dependencies": {
+    "axios": "^0.19.0",
     "express": "^4.17.1",
     "express-graphql": "^0.8.0",
     "graphql": "^14.3.1",
